@@ -418,4 +418,5 @@ def project():
             """)
 
 if __name__ == "__main__":
-    project()
+    from menu import menu_page
+    menu_page()
