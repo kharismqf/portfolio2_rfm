@@ -1,6 +1,6 @@
 import streamlit as st
 
-def link():
+def kontak_page():
     st.title("👋 Hi, I'm Kharisma Qaulam Fadhila")
     
     with st.container():
@@ -26,4 +26,4 @@ def link():
         st.markdown("[✍️ Medium](https://medium.com/@qaulamk)", unsafe_allow_html=True)
 
 if __name__ == "__main__":
-    link()
+    kontak_page()

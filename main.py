@@ -7,7 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 from menu import menu_page
-from kontak import link
+from kontak import kontak_page
 import plotly.express as px
 from PIL import Image
 

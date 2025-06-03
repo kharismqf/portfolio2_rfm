@@ -35,8 +35,8 @@ def menu_page():
         main()
 
     elif page == 'Tentang Saya':
-        from kontak import link
-        link()
+        from kontak import kontak_page
+        kontak_page()
 
 
 # Jika ingin menjalankan langsung menu.py (opsional)
