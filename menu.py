@@ -4,7 +4,7 @@ def menu_page():
     st.set_page_config(page_title="Portofolio")
 
     st.sidebar.title('Homepage')
-    page = st.sidebar.radio('Pilih halaman:', ['Home', 'Projek', 'Tentang Saya'])
+    page = st.sidebar.radio('Pilih halaman:', ['Home', 'Project', 'About Me'])
 
     if page == 'Home':
         st.markdown("<h1 style='text-align: center;'> Welcome to My Portfolio</h1>", unsafe_allow_html=True)
