@@ -24,3 +24,6 @@ def link():
         st.markdown("[💼 LinkedIn](https://www.linkedin.com/in/kharismaqaulam)", unsafe_allow_html=True)
     with col3:
         st.markdown("[✍️ Medium](https://medium.com/@qaulamk)", unsafe_allow_html=True)
+
+if __name__ == "__main__":
+    link()

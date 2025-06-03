@@ -7,11 +7,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 from menu import menu_page
-from kontak import kontak_page
+from kontak import link
 import plotly.express as px
 from PIL import Image
 
-def project():
+def main():
     # Judul utama harus di paling atas di dalam fungsi
     st.markdown("<h1 style='text-align: center;'>Analisis Segmentasi Pelanggan dengan RFM</h1>", unsafe_allow_html=True)
 
@@ -418,4 +418,4 @@ def project():
             """)
 
 if __name__ == "__main__":
-    project()
+    main()
