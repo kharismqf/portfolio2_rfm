@@ -147,7 +147,7 @@ def project():
             </table>
             """, unsafe_allow_html=True)
         
-
+               
          st.write("## Analisis RFM Pelanggan")
          # Ubah format tanggal
          data['Order Date'] = pd.to_datetime(data['Order Date'])
@@ -256,8 +256,8 @@ def project():
             st.plotly_chart(fig3)
             st.write("""
             Insight:
-            1. X
-            2. X
+            1. Office Supplies punya jumlah transaksi terbanyak secara konsisten.
+            2. Namun, penjualan tertinggi justru dari kategori Technology (37.5%), disusul Furniture (32.5%). Artinya, nilai per transaksi Technology lebih tinggi dibanding kategori lain.
             """)
 
          if st.checkbox("3. Tren profit per segmen pelanggan setiap tahun"):
@@ -302,8 +302,8 @@ def project():
                 st.plotly_chart(fig, use_container_width=True)
             st.write("""
             Insight:
-            1. X
-            2. X
+            1. Segment Gold dan Loyal menyumbang penjualan terbesar di semua kategori.
+            2. Technology paling kuat di semua segmen pelanggan, termasuk New dan Promising.
             """)
 
          if st.checkbox("4. Tren transaksi tiap kategori produk, serta kategori apa yang paling banyak penjualannya"):
@@ -364,8 +364,8 @@ def project():
             st.plotly_chart(fig6)
             st.write("""
             Insight:
-            1. X
-            2. X
+            1. Profit dari pelanggan Loyal dan Gold meningkat tajam, dominasi tahun 2014.
+            2. Segmen Fading dan At Risk stagnan/turun, perlu intervensi.
             """)
 
     st.subheader('Rekomendasi Bisnis')
