@@ -29,12 +29,12 @@ def menu_page():
         </div>
         """, unsafe_allow_html=True)
 
-    elif page == 'Projek':
+    elif page == 'Project':
         # Panggil fungsi project dari module lain
-        from main import main
-        main()
+        from main import project
+        project()
 
-    elif page == 'Tentang Saya':
+    elif page == 'About Me':
         from kontak import kontak_page
         kontak_page()
 

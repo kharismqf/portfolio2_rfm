@@ -11,7 +11,7 @@ from kontak import kontak_page
 import plotly.express as px
 from PIL import Image
 
-def main():
+def project():
     # Judul utama harus di paling atas di dalam fungsi
     st.markdown("<h1 style='text-align: center;'>Analisis Segmentasi Pelanggan dengan RFM</h1>", unsafe_allow_html=True)
 
@@ -418,4 +418,4 @@ def main():
             """)
 
 if __name__ == "__main__":
-    main()
+    project()
