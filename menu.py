@@ -31,13 +31,12 @@ def menu_page():
 
     elif page == 'Project':
         # Panggil fungsi project dari module lain
-        from main import project
-        project()
+        import main
+        main.project()
 
     elif page == 'About Me':
-        from kontak import kontak_page
-        kontak_page()
-
+        import kontak
+        kontak.user()
 
 # Jika ingin menjalankan langsung menu.py (opsional)
 if __name__ == "__main__":
