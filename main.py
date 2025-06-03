@@ -415,3 +415,5 @@ def project():
             - **Furniture** → Tawarkan promo musiman untuk mendorong pembelian produk dengan margin besar.
             """)
 
+if __name__ == "__main__":
+    project()
